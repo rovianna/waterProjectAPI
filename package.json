@@ -3,15 +3,15 @@
   "version": "0.0.1",
   "description": "",
   "main": "app.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Rodrigo Vianna <rodrigogvianna@outlook.com>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.0",
     "mongoose": "^4.11.13",
-    "node-env-file": "^0.1.8"
+    "node-env-file": "^0.1.8",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "babelrc-install": "^2.0.0",
