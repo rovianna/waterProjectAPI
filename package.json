@@ -1,0 +1,15 @@
+{
+  "name": "waterprojectapi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Vianna <rodrigogvianna@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.0",
+    "mongoose": "^4.11.13"
+  }
+}
