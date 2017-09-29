@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 const Item = require('./item')
 
-const waterSchema = new Schema({
+const WaterSchema = new Schema({
     name: String,
     description: String,
     locale: {
@@ -15,4 +15,4 @@ const waterSchema = new Schema({
     items: [{type: Schema.Types.ObjectId, ref:'Item'}]
 })
 
-module.exports = mongoose.model('Water', waterSchema)
+module.exports = WaterSchema
