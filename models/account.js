@@ -1,9 +1,11 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
+const passportLocalMongoose = require('passport-local-mongoose')
 
-const AccountSchema = new Schema({
+let Account = new Schema({
     email: String,
     password: String
 })
 
-module.exports = AccountSchema
+Account.plugin(passportLocalMongoose)
+module.exports = mongoose.model('Account', Account)

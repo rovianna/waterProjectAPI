@@ -5,6 +5,8 @@ const bodyParser = require('body-parser')
 const AccountSchema = require('./models/account.js')
 const WaterSchema = require('./models/water.js')
 const ItemSchema = require('./models/item.js')
+const AuthMiddleware = require('./middlewares/authMiddleware.js')
+
 const fs = require('fs')
 const env = require('node-env-file')
 const envFile = __dirname + '/.env'
